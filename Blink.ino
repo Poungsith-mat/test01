@@ -14,7 +14,7 @@ void setup() {
 
 // the loop function runs over and over again forever
 void loop() {
-  M5.Lcd.fillScreen(BLACK);
+  M5.Lcd.fillScreen(BLACK);  
   delay(500);
   M5.Lcd.setCursor(10, 35);
   M5.Lcd.print("HELLO WORLD!");
