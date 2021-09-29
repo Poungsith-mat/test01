@@ -17,7 +17,7 @@ void loop() {
   M5.Lcd.fillScreen(BLACK);  
   delay(500);
   M5.Lcd.setCursor(10, 35);
-  M5.Lcd.print("HELLO WORLDasd!");
+  M5.Lcd.print("HELLO WORLD!");
   delay(500);
   M5.Lcd.fillRect(10, 25, 4, 4, BLUE);
   delay(500);
