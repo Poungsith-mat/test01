@@ -8,7 +8,7 @@ void setup() {
   M5.begin();
   
   M5.Lcd.setRotation(3);
-  M5.Lcd.setTextSize(2);
+  M5.Lcd.setTextSize(1);
   
 }
 
@@ -17,7 +17,7 @@ void loop() {
   M5.Lcd.fillScreen(BLACK);  
   delay(500);
   M5.Lcd.setCursor(10, 35);
-  M5.Lcd.print("HELLO New WORLD!");
+  M5.Lcd.print("HELLO  new WORLD!\n  have a nice day");
   delay(500);
   M5.Lcd.fillRect(10, 25, 4, 4, BLUE);
   delay(500);
